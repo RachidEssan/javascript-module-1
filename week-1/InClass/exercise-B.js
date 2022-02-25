@@ -1,0 +1,6 @@
+console.log ('Hello World')
+console.log ('Konnichiwa Mina')
+console.log ('Marhaban')
+console.log ('Hola Mundo')
+console.log ('Salut tout le monde')
+console.log ('السلام عليكم')
