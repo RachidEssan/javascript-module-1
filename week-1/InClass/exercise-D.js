@@ -1,3 +1,3 @@
-let colors = ('orange, black')
+const colors = ('orange, black')
 
 console.log (typeof (colors))
