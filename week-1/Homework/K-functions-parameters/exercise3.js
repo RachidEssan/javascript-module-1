@@ -3,6 +3,6 @@ function createGreeting (name) {
     return message ;
 }
 
-var greeting = createGreeting("Rachid");
+var greeting = createGreeting("Daniel");
 
 console.log(greeting);
