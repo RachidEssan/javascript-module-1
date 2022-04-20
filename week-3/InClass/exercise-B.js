@@ -3,6 +3,8 @@ const otherClass = ['Daniel', 'Irina', 'Rares'];
 
 const combinedArray = ourClass.concat(otherClass)
 
+console.log(combinedArray.sort())
+
 function inClass(name, array) {
     if (array.includes(name)) {
         return `${name} is in the class with ${array.join(', ')}.`
@@ -15,4 +17,3 @@ function inClass(name, array) {
 
 console.log(inClass('Daniel', otherClass))
 console.log(inClass('Daniel', ourClass))
-console.log(combinedArray.sort())

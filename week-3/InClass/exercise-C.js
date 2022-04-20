@@ -2,14 +2,7 @@ function magician(yourFunc) {
   console.log(
     "I am magician! Watch as I mutate an array of strings to your heart's content!"
   );
-  const namesArray = [
-    "James",
-    "Elamin",
-    "Ismael",
-    "Sanyia",
-    "Chris",
-    "Antigoni",
-  ];
+  const namesArray = ["James", "Elamin", "Ismael", "Sanyia", "Chris", "Antigoni"];
 
   const magicOutput = yourFunc(namesArray);
 
@@ -17,8 +10,7 @@ function magician(yourFunc) {
 }
 
 function uppercaseAndSortEverything(array) {
-    return array
+  return array
     .map(word => word.toUpperCase())
-    .sort()
 }
 console.log(magician(uppercaseAndSortEverything))

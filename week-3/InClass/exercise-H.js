@@ -6,7 +6,7 @@ function findName(names) {
     if (names.includes(NAME_TO_FIND)) {
         return 'FOUND ME'
     }
-    return 'Havent found me'
+    return "Haven't found me :("
 
 }
 

@@ -1,10 +1,13 @@
-const Students = ['Asaad', 'Akram', 'Deniz', 'Usman', 'Isha', 'Shaminderjeet', 'Mehtap', 'Burcak', 'Gloria']
-Students[3] = Students[0]
+const OurClass = ['Asaad', 'Akram', 'Deniz', 'Usman', 'Isha', 'Shaminderjeet', 'Mehtap', 'Burcak', 'Gloria']
 
-console.log(Students)
-console.log(Students.length)
+console.log(OurClass)
+console.log(OurClass.length)
+
 const newName = 'Ethan'
-ourClass.unshift(newName)
-ourClass.push(newName)
-console.log(ourClass)
-console.log(ourClass.length)
+const anotherNewName = "Rachid"
+
+OurClass.unshift(newName)
+OurClass.push(anotherNewName)
+
+console.log(OurClass)
+console.log(OurClass.length)
