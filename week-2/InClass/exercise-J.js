@@ -5,4 +5,5 @@ function secondMatchesAmy(array) {
   return "Second index not matched";
 }
 
-console.log(secondMatchesAmy)
+console.log(secondMatchesAmy(['Bob', 'Amy', 'Alice']));
+console.log(secondMatchesAmy(['Bob', 'Alice', 'Amy']));

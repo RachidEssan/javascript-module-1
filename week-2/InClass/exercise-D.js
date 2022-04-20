@@ -1,11 +1,13 @@
-function saymessage(message) {
-    if (message === 'happy') {
+function getmessage(mood) {
+    if (mood === 'happy') {
         return "Good job, you're doing great!"
-    } else if (message === "sad") {
+    } else if (mood === "sad") {
         return "Every cloud has a silver lining"
-    } else if (typeof message === "number") {
+    } else if (typeof mood === 'number') {
         return "Beep beep boop"
+    } else {
+        return "I'm sorry, I'm still learning about feelings!"
     }
 }
 
-console.log(saymessage("sad"))
+console.log(getmessage('drunk'))

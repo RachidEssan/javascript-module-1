@@ -6,6 +6,4 @@ function boolChecker(bool) {
   return "No bool, not cool.";
 }
 
-boolChecker(true);
-
-console.log(boolChecker('boolean'))
+console.log(boolChecker(true));
