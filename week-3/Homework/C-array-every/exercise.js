@@ -5,10 +5,10 @@
 var students = ["Omar", "Austine", "Dany", "Swathi", "Lesley", "Rukmini"];
 var group = ["Austine", "Dany", "Swathi", "Daniel"];
 
-var groupIsOnlyStudents = students.every(onlyStudents);
+var groupIsOnlyStudents = group.every(isStudent);
 
-function onlyStudents(name) {
-  return Array.students;
+function isStudent(name) {
+  return students.includes(name);
 }
 
 if (groupIsOnlyStudents) {
